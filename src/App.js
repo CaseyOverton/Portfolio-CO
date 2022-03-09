@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import Home from "./Home/HomePage";
+import Contact from "./Contact/Contact";
+import Resume from "./Resume";
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Nav from "./nav";
+import useLocalStorage from "use-local-storage";
+import { IoIosSunny } from "react-icons/io";
 function App() {
+  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "dark" : "light"
+  );
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div data-theme={theme}>
+      <Router>
+      {/* basename={process.env.PUBLIC_URL} */}
+        <Nav />
+        <button onClick={switchTheme}>
+         {theme === 'light' ? 'Dark' : 'Light'} Theme <div style={{marginTop:2}}><IoIosSunny /> </div>
+        </button>
+        <Routes> 
+          <Route exact path="/" element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
