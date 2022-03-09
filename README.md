@@ -39,26 +39,24 @@ hint: dark mode is my favorite! Decide if you want to view page in dark or light
 * [UseLocalStorage](https://www.npmjs.com/package/use-local-storage)
 
 ## Getting Started
-    Lets get started! 
+Lets get started! 
+
 ### Prerequisites
 
-* npm
- 
-  npm install npm@latest -g
- 
+    npm install npm@latest -g
 
 ### Instalation
 1.  Clone the repo
    
-   git clone https://github.com/CaseyOverton/Portfolio-CO.git
+        git clone https://github.com/CaseyOverton/Portfolio-CO.git
 
 2. Install NPM packages
    
-   npm install
+        npm install
   
   3. Start using npm
 
-   npm start
+            npm start
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
