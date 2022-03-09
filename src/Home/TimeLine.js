@@ -34,7 +34,7 @@ export default function TimeLineComponent() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span" style={{color: 'var(--text-primary)', fontSize: 25}}> 
+          <Typography variant="h6" component="span" style={{color: 'var(--text-primary)', fontSize: 25, fontWeight: 'bold',}}> 
            East Carolina University
           </Typography>
 
