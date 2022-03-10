@@ -32,7 +32,9 @@ const Home = () => {
                       <Gallery/>
                       </div>
                     </AnimationOnScroll>
+                    <div className='timeline'>
                     <TimeLineComponent />
+                    </div>
                 </div>
              </div>
            </div>

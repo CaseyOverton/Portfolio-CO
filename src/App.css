@@ -123,6 +123,9 @@ Button {
   .imageSlide {
       display: none;
   }
+  .timeline {
+    display: none;
+}
 }
 /* @media (max-width: 479px) {
   body {
