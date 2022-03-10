@@ -25,7 +25,7 @@
 
 https://caseyoverton.github.io/Portfolio-CO/
 
-hint: dark mode is my favorite! Decide if you want to view page in dark or light mode, while local storage saves your preference! Website built with simplicity in mind. This page is not optimal for mobile devices. 
+hint: dark mode is my favorite! Decide if you want to view page in dark or light mode, while local storage saves your preference! Website built with simplicity in mind. This portfolio is not optimal for mobile devices. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
