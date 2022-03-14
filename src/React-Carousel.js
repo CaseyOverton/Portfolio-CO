@@ -33,7 +33,7 @@ const Gallery = () => {
               <Typography style={{ fontSize: 25, fontWeight: 'bold', padding: 30, color: 'var(--text-primary)', textAlign: 'center',}}>React powered website filters through a list of names, as the user types into an input. The data is obtained by an API with popular NPM package, axios. A javascript function was used to filter through each name typed in search bar.</Typography>
               <Typography>
               <a style={{color: 'var(--text-primary)', fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}}href='https://caseyoverton.github.io/EmployeeDirectory/'>Deployed Website</a><br></br>
-              <a style={{color:'var(--text-primary)',fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}} href="https://github.com/CaseyOverton/EmployeeDirectory/">Github Repo</a>
+              <a style={{color:'var(--text-primary)',fontSize: 25, marginBottom: 100, padding: 20, alignText: 'center', fontWeight: 'bold'}} href="https://github.com/CaseyOverton/ReactEmployeeDirectory">Github Repo</a>
               </Typography> 
               
             </div>
