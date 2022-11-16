@@ -20,5 +20,6 @@ const RotatingText = () => {
         </ThemeProvider>
     )
     }
+    
 export default RotatingText;
 
